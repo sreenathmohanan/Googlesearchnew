@@ -35,10 +35,10 @@
  	               <plugin>
  	               <groupId>org.apache.maven.plugins</groupId>
  	              <artifactId>maven-compliler-plugin</artifactId>
- 	              <version>2.20</version>
+ 	              <version>3.8.0</version>
  	              <configuration>
- 	               <source>1.6</source>
- 	               <target>1.6</target> 	       
+ 	               <source>13</source>
+ 	               <target>13</target> 	       
  	              </configuration>
  	              </plugin>
  	              
