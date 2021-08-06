@@ -16,7 +16,7 @@ public  void test()
 {
 
 //Setting system properties of ChromeDriver
-System.setProperty("webdriver.chrome.driver","C:\\Users\\232985\\eclipse-workspace\\Googlesearchnew\\Googlesearchnew\\src\\main\\resources\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","https://github.com/sreenathmohanan/Googlesearchnew/tree/master/src/main/resources/chromedriver.exe");
 
 //Creating an object of ChromeDriver
 WebDriver driver = new ChromeDriver();
