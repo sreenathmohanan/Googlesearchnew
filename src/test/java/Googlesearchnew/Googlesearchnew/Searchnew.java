@@ -14,9 +14,11 @@ public class Searchnew
 @Test
 public  void test()
 {
+	
+	System.out.print("hello world");
 
-//Setting system properties of ChromeDriver
-System.setProperty("webdriver.chrome.driver","https://github.com/sreenathmohanan/Googlesearchnew/tree/master/src/main/resources/chromedriver.exe");
+/*//Setting system properties of ChromeDriver
+System.setProperty("webdriver.chrome.driver","C:\\Users\\232985\\eclipse-workspace\\Googlesearchnew\\Googlesearchnew\\src\\main\\resources\\chromedriver.exe");
 
 //Creating an object of ChromeDriver
 WebDriver driver = new ChromeDriver();
@@ -38,7 +40,7 @@ driver.findElement(By.name("q")).sendKeys("YouTube");
 //name locator for google search button
 WebElement searchIcon = driver.findElement(By.name("btnK"));
 searchIcon.click();
-driver.quit();
+driver.quit();*/
 
 }
 }
