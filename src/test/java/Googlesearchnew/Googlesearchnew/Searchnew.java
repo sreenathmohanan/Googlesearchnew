@@ -34,16 +34,7 @@ System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.manage().window().maximize();
 
-
-driver.get("https://icargo.ibsplc.aero/aastag/loginFlow");
-driver.findElement(By.xpath("//*[@name='username']")).sendKeys("00232985");
-driver.findElement(By.xpath("//*[@name='j_password']")).sendKeys("weblogic");
-driver.findElement(By.xpath("//*[@name='companyCode']")).sendKeys("AA");
-
-
-driver.findElement(By.xpath("//*[@name='btOk']")).click();
-
-/*driver.manage().deleteAllCookies();
+driver.manage().deleteAllCookies();
 
 driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -54,7 +45,7 @@ driver.findElement(By.name("q")).sendKeys("YouTube");
 
 WebElement searchIcon = driver.findElement(By.name("btnK"));
 searchIcon.click();
-*/
+
 driver.quit();
 }
 
