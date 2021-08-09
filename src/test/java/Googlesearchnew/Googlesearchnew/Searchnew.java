@@ -22,6 +22,7 @@ public void start()
 	System.out.println("Program starting");	
 	
 }
+
 	
 	
 @Test
@@ -48,6 +49,7 @@ searchIcon.click();
 
 driver.quit();
 }
+
 
 
 @AfterTest
