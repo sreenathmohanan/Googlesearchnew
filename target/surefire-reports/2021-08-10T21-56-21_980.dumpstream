@@ -1,18 +1,18 @@
-# Created on 2021-08-06T00:59:21.205
+# Created on 2021-08-10T21:56:21.982
 Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
 
-# Created on 2021-08-06T00:59:21.655
+# Created on 2021-08-10T21:56:23.283
 WARNING: An illegal reflective access operation has occurred
 
-# Created on 2021-08-06T00:59:21.659
+# Created on 2021-08-10T21:56:23.284
 WARNING: Illegal reflective access by org.testng.xml.XMLParser (file:/C:/Users/232985/.m2/repository/org/testng/testng/6.8/testng-6.8.jar) to constructor com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl()
 
-# Created on 2021-08-06T00:59:21.663
+# Created on 2021-08-10T21:56:23.286
 WARNING: Please consider reporting this to the maintainers of org.testng.xml.XMLParser
 
-# Created on 2021-08-06T00:59:21.671
+# Created on 2021-08-10T21:56:23.287
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 
-# Created on 2021-08-06T00:59:21.672
+# Created on 2021-08-10T21:56:23.288
 WARNING: All illegal access operations will be denied in a future release
 

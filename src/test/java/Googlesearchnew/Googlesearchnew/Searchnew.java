@@ -57,7 +57,7 @@ driver.quit();
 public void Endtest()
 {
 	
-	System.out.println("Program ending");	
+	System.out.println("Program tes");	
 }
 }
 
