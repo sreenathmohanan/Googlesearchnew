@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Sreenath_Suite">
   <test  name="Sreenath_Test">
-  <parameter name="browser" value="chrome_remote"/>
+  <parameter name="browser" value="chrome_saucelab"/>
     <parameter name="url" value="https://icargocloud-aastg.ibsplc.aero/aastag/loginFlow"/>
      <parameter name="username" value="00232985"/>
       <parameter name="password" value="weblogic"/>

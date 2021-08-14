@@ -27,7 +27,7 @@ public void Login(String browser, String url) throws MalformedURLException
 
 	System.out.println("Launching browser "+ browser );	
 	
-	if(browser.equals("chrome"))
+	if(browser.equals("chrome_pip"))
 		
 	{
 		
@@ -43,7 +43,7 @@ public void Login(String browser, String url) throws MalformedURLException
 		
 	}
 	
-	else if(browser.equals("chrome_remote"))
+	else if(browser.equals("chrome_saucelab"))
 		
 	{
 		
