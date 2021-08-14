@@ -34,7 +34,7 @@ public void Login(String browser) throws MalformedURLException
 		
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 
-		WebDriver driver = new ChromeDriver();
+	    driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
 		driver.manage().deleteAllCookies();
