@@ -3,6 +3,10 @@
 <suite name="Sreenath_Suite">
   <test  name="Sreenath_Test">
   <parameter name="browser" value="chrome_remote"/>
+    <parameter name="url" value="https://icargocloud-aastg.ibsplc.aero/aastag/loginFlow"/>
+     <parameter name="username" value="00232985"/>
+      <parameter name="password" value="weblogic"/>
+  
     <classes>
       <class name="Googlesearchnew.Googlesearchnew.Searchnew"/>
     </classes>

@@ -20,9 +20,9 @@ public static final String USERNAME= "sso-aa-Prashanth.Gurupadham";
 public static final String ACCESS_KEY= "c846f278-bbb9-4d13-8410-b82054ef373e";
 public static final String URL= "https://" + USERNAME + ":" + ACCESS_KEY +"@ondemand.us-west-1.saucelabs.com:443/wd/hub";
 	
-@Parameters({"browser"})	
-@Test
-public void Login(String browser) throws MalformedURLException
+@Parameters({"browser","url"})	
+@Test(priority=1)
+public void Login(String browser, String url) throws MalformedURLException
 
 {
 
@@ -66,20 +66,38 @@ public void Login(String browser) throws MalformedURLException
 		capabilities.setCapability("name", "Test");
 		capabilities.setCapability("screenResolution", "1280x800");		
 		driver = new RemoteWebDriver(new java.net.URL(URL), capabilities);
-		driver.get("https://www.google.com/");
+/*		driver.get("https://www.google.com/");
 
 		driver.findElement(By.name("q")).sendKeys("YouTube");
 
 		WebElement searchIcon = driver.findElement(By.name("btnK"));
-		searchIcon.click();
-		
-		
+		searchIcon.click();*/
+								
 	}
+	
+	driver.get(url);
+}
+	
+	@Parameters({"username","password"})
+	@Test(priority=2)
+	
+    public void logintest(String username, String password)
+    {
+		System.out.println("username is "+username +"password is "+password);
+		driver.findElement(By.name("username")).sendKeys(username);
+		driver.findElement(By.name("j_password")).sendKeys(password);
+		
+		driver.findElement(By.name("companyCode")).sendKeys("AA");
+		driver.findElement(By.name("btOk")).click();	
+		
+		
+    }
+	
 
 
-driver.quit();
+
 }
 
 
-}
+
 
