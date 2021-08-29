@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Sreenath_Suite">
+  <test  name="Sreenath_Test">
+  <parameter name="browser" value="chrome_saucelab"/>
+    <parameter name="url" value="https://icargocloud-aastg.ibsplc.aero/aastag/loginFlow"/>
+     <parameter name="username" value="00232985"/>
+      <parameter name="password" value="weblogic"/>
+  
     <classes>
       <class name="Googlesearchnew.Googlesearchnew.Searchnew"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 

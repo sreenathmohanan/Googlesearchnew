@@ -31,74 +31,28 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">7.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Sreenath_Test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">5.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">Googlesearchnew.Googlesearchnew.Searchnew</td><td><a href="#m1"><b>test</b>  </a></td><td class="numi">1</td><td>1628650586285</td><td class="numi">7100</td></tr>
+<tr><th colspan="4">Sreenath_Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">Googlesearchnew.Googlesearchnew.Searchnew</td><td><a href="#m1"><b>Login</b>  </a></td><td class="numi">1</td><td>1630209800809</td><td class="numi">3536</td></tr><tr class="passedodd"><td><a href="#m2"><b>logintest</b>  </a></td><td class="numi">1</td><td>1630209804347</td><td class="numi">1759</td></tr>
 </table>
-<h1>Test</h1>
-<h2 id="m1">Googlesearchnew.Googlesearchnew.Searchnew:test</h2>
-<div style="padding-left:3em">
-<p>session not created: This version of ChromeDriver only supports Chrome version 92
-Current browser version is 89.0.4389.114 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QJ08041111&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x01102A33+2501171]
-	Ordinal0 [0x0109D1C1+2085313]
-	Ordinal0 [0x00FA1FA8+1056680]
-	Ordinal0 [0x00FC020A+1180170]
-	Ordinal0 [0x00FBC125+1163557]
-	Ordinal0 [0x00FB997F+1153407]
-	Ordinal0 [0x00FE999F+1350047]
-	Ordinal0 [0x00FE960A+1349130]
-	Ordinal0 [0x00FE551B+1332507]
-	Ordinal0 [0x00FC1D74+1187188]
-	Ordinal0 [0x00FC2BD9+1190873]
-	GetHandleVerifier [0x0127EFE6+1504438]
-	GetHandleVerifier [0x0132DDA5+2220661]
-	GetHandleVerifier [0x01185589+481881]
-	GetHandleVerifier [0x01184639+477961]
-	Ordinal0 [0x010A28BD+2107581]
-	Ordinal0 [0x010A6728+2123560]
-	Ordinal0 [0x010A6862+2123874]
-	Ordinal0 [0x010AFA81+2161281]
-	BaseThreadInitThunk [0x74E6347D+18]
-	RtlInitializeExceptionChain [0x77269852+99]
-	RtlInitializeExceptionChain [0x77269825+54]
-</p>
-java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-<br/>at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-<br/>at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-<br/>at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-<br/>at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-<br/>at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-<br/>at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-<br/>at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-<br/>at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-<br/>at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-<br/>at Googlesearchnew.Googlesearchnew.Searchnew.test(Searchnew.java:35)
-<br/>28 lines not shown
-</div>
+<h1>Sreenath_Test</h1>
+<h2 id="m1">Googlesearchnew.Googlesearchnew.Searchnew:logintest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>00232985</td>
+<td>weblogic</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Googlesearchnew.Googlesearchnew.Searchnew:Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>chrome_pip</td>
+<td>https://icargocloud-aastg.ibsplc.aero/aastag/loginFlow</td>
+</tr>
+</table>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
